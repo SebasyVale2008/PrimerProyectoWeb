@@ -1,0 +1,65 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+h2{
+    font-size: 15px;
+    font-family: monospace;
+    color: black;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+       display: block;
+} 
+body{
+    text-align: center;
+}
+
+div{
+    width: 960px ;
+    background: lawngreen;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+
+
+header{
+    background: #EA2027;
+    border: 3px solid #1B1464;
+}
+
+.menu{
+    background: #12CBC4;
+    text-align: left;
+    padding: 5px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    border: 3px solid #222f3e;
+    float: left;
+}
+
+.columna{
+    width: 200px;
+    border: 1px solid #273c75;
+    float: left;
+}
+
+.pie{
+    clear: both;
+}
