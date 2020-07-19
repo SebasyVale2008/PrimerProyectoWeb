@@ -25,7 +25,7 @@ body{
 
 div{
     width: 960px ;
-    background: lawngreen;
+    background:lawngreen;
     margin: 15px auto;
     border: 1px solid black;
 }
@@ -56,9 +56,13 @@ header{
 }
 
 .columna{
-    width: 200px;
-    border: 1px solid #273c75;
+    width: 300px; 
     float: left;
+    margin: 20px 0px;
+    background: #EA2027;
+    border: 3px solid #273c75;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 .pie{
