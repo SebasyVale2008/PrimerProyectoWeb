@@ -27,7 +27,7 @@ div{
     width: 960px ;
     background:lawngreen;
     margin: 15px auto;
-    border: 1px solid black;
+    border: 1px solid black;   
 }
 
 
@@ -51,20 +51,36 @@ header{
 .seccion{
     margin: 20px;
     width: 600px;
-    border: 3px solid #222f3e;
     float: left;
+}
+
+article{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid #1B1464 ;
 }
 
 .columna{
     width: 300px; 
     float: left;
     margin: 20px 0px;
-    background: #EA2027;
+    
+}
+
+.columna blockquote{
     border: 3px solid #273c75;
-    font-family: monospace;
-    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #EA2027;
 }
 
 .pie{
     clear: both;
+    background: #EA2027;
+    padding: 20px;
 }
+
+article footer{
+    text-align: right;
+}
+
